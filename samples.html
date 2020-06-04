@@ -178,35 +178,68 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 				<div id="wsite-content" class="wsite-elements wsite-not-footer">
 	<h2 class="wsite-content-title"><span style="color:rgb(42, 42, 42)">Whispered and Lombard neural speech synthesis</span></h2>
 
-<div class="paragraph">More samples will be updated very soon.....<br />&#8203;<br /></div>
+<div class="paragraph">These samples are recorded by one of the authors. Readers can create your own whisper/lombard voice by the method introduced in the paper. <br />&#8203;<br /></div>
 
 <h4 id="samples-from-adaptation">Natural samples from normal, Lombard and whisper style voices</h4>
 <blockquote>
-  <audio src="/qsvoice.github.io/audio/whisper_audio/normal001_75_natural.wav" controls="controls"></audio>
+  <audio src="/qsvoice.github.io/audio/whisper_audio/natural/natural_normal001_75.wav" controls="controls"></audio>
   <p> </p>
-  <audio src="/qsvoice.github.io/audio/whisper_audio/lombard003_402_natural.wav" controls="controls"></audio>
+  <audio src="/qsvoice.github.io/audio/whisper_audio/natural/natural_lombard003_402.wav" controls="controls"></audio>
   <p> </p>
-  <audio src="/qsvoice.github.io/audio/whisper_audio/whisper003_43_natural.wav" controls="controls"></audio>
+  <audio src="/qsvoice.github.io/audio/whisper_audio/natural/natural_whisper003_43.wav" controls="controls"></audio>
   <p> </p>
 </blockquote>
 
 <br />&#8203;
 
-<h4 id="samples-from-adaptation">Generated samples</h4>
+<h4 id="samples-from-adaptation">Generated samples from adaptation</h4>
 <blockquote>
-<div class="paragraph">Normal style from adaptation<br />&#8203;
-  <audio src="/qsvoice.github.io/audio/whisper_audio/Normal_adapt_book_24.wav" controls="controls"></audio>
+<div class="paragraph">Normal style <br />&#8203;
+  <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/normal/Normal_adapt_book_24.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/normal/normal_adapt_blog_002.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/normal/normal_siri1_011.wav" controls="controls"></audio>
   <p> </p>
-<div class="paragraph">Lombard style from adaptation<br />&#8203;
-  <audio src="/qsvoice.github.io/audio/whisper_audio/lombard_adapt_book_24.wav" controls="controls"></audio>
+<div class="paragraph">Lombard style<br />&#8203;
+  <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/lombard/lombard_adapt_book_24.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/lombard/lombard_adapt_blog_002.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/lombard/lombard_adapt_siri1_011.wav" controls="controls"></audio>
   <p> </p>
-<div class="paragraph">Whisper style from adaptation<br />&#8203;
-  <audio src="/qsvoice.github.io/audio/whisper_audio/Whisper_adapt_book_24.wav" controls="controls"></audio>
+<div class="paragraph">Whisper style<br />&#8203;
+  <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/whisper/Whisper_adapt_book_24.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/whisper/whisper_adapt_blog_002.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/whisper/whisper_adapt_siri1_011.wav" controls="controls"></audio>
   <p> </p>
-<div class="paragraph">Whisper style from post-processing<br />&#8203;
-  <audio src="/qsvoice.github.io/audio/whisper_audio/book_24-whisper.wav" controls="controls"></audio>
+<div class="paragraph">Whisper style from post-processing of Normal style<br />&#8203;
+  <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/post_whisper/book_24-whisper.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/post_whisper/post_blog_002-whisper.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/adapt/post_whisper/post_siri1_011-whisper.wav" controls="controls"></audio>
   <p> </p>
 </blockquote>
+
+<br />&#8203;
+
+<h4 id="samples-from-sv">Generated samples from SV model</h4>
+<blockquote>
+<div class="paragraph">Normal style <br />&#8203;
+  <audio src="/qsvoice.github.io/audio/whisper_audio/sv/normal_news1_0010.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/sv/normal_web0213.wav" controls="controls"></audio> 
+  <p> </p>
+<div class="paragraph">Lombard style<br />&#8203;
+  <audio src="/qsvoice.github.io/audio/whisper_audio/sv/lombard_news1_0010.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/sv/lombard_web0213.wav" controls="controls"></audio> 
+  <p> </p>
+<div class="paragraph">Whisper style<br />&#8203;
+  <audio src="/qsvoice.github.io/audio/whisper_audio/sv/whisper_news1_0010.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/sv/whisper_web0213.wav" controls="controls"></audio>
+</blockquote>
+
+<br />&#8203;
+
+<h4 id="samples-from-sv">Generated samples for testing intelligibility</h4>
+<blockquote>
+<div class="paragraph">Normal style <br />&#8203;
+  <audio src="/qsvoice.github.io/audio/whisper_audio/noise/normal/harv65_0001.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/noise/normal/harv65_0003.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/noise/normal/harv65_0005.wav" controls="controls"></audio> 
+  <p> </p>
+<div class="paragraph">Normal style with postprocessing<br />&#8203;
+  <audio src="/qsvoice.github.io/audio/whisper_audio/noise/normal_proc/harv65_0001.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/noise/normal_proc/harv65_0003.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/noise/normal_proc/harv65_0005.wav" controls="controls"></audio>
+  <p> </p>
+<div class="paragraph">Lombard style<br />&#8203;
+  <audio src="/qsvoice.github.io/audio/whisper_audio/noise/lombard/harv65_0001.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/noise/lombard/harv65_0003.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/noise/lombard/harv65_0005.wav" controls="controls"></audio>
+  <p> </p>
+<div class="paragraph">Lombard style with postprocessing<br />&#8203;
+  <audio src="/qsvoice.github.io/audio/whisper_audio/noise/lombard_proc/harv65_0001.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/noise/lombard_proc/harv65_0003.wav" controls="controls"></audio> <audio src="/qsvoice.github.io/audio/whisper_audio/noise/lombard_proc/harv65_0005.wav" controls="controls"></audio>
+</blockquote>
+
+
 
 
 <div><div style="height: 20px; overflow: hidden; width: 100%;"></div>
